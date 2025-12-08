@@ -1,0 +1,59 @@
+# Résumé de l'objectif du projet
+
+L'objectif principal de ce projet final est de concevoir et d'implémenter
+un prototype de visualisation de données (Dashboard) basé sur le jeu de données "invoices.csv".
+Ce tableau de bord doit présenter quatre indicateurs clés extraits des données
+en utilisant des techniques d'analyse variées(regroupement, transformation, analyse temporelle et spatiale).
+
+Le projet met l'accent sur deux aspects :
+1.  **Capacités techniques** : Implémentation en Python, structuration du code en fonctions indépendantes et réutilisables, documentation rigoureuse, et utilisation de la librairie Dash pour la visualisation.
+2.  **Communication** : Présentation claire des résultats via le dashboard et une soutenance orale.
+
+---
+
+# Plan structuré du projet
+
+## 1. Initialisation et Collecte de Données (2 points)
+*   **Création du Notebook** : Initialiser le fichier `NomDeFamilleLeader_NomDataset.ipynb`.
+*   **Importation des librairies** : Pandas, Plotly, Dash, etc.
+*   **Fonction de chargement** : Créer une fonction pour charger `invoices.csv`.
+*   **Exploration des données** :
+    *   Créer une fonction pour analyser la structure (lignes, colonnes, types).
+    *   Identifier les valeurs manquantes.
+    *   Effectuer un classement des variables.
+    *   Documenter les découvertes dans des cellules Markdown.
+
+## 2. Extraction d'Informations et Création d'Indicateurs (9 points)
+Chaque étape doit être implémentée sous forme de fonction documentée (Entrée/Sortie).
+
+*   **Indicateur 1 : Requête de Regroupement (1 point)**
+    *   Développer une fonction pour agréger les données (ex: "Somme des ventes par..." ou "Maximum de...").
+    *   Générer une visualisation associée.
+
+*   **Indicateur 2 : Transformation de Données (2 points)**
+    *   Appliquer une technique de transformation (Normalisation, Discrétisation, ou Frequent Pattern Mining).
+    *   Visualiser le résultat.
+
+*   **Indicateurs 3 & 4 : Analyse Temporelle et Spatiale (6 points)**
+    *   **Temporel** : Appliquer une technique de prévision (Forecasting) sur les données temporelles (ex: dates de factures).
+    *   **Spatial** : Appliquer une technique de clustering spatial (si les données géographiques le permettent).
+    *   Visualiser ces deux résultats distincts.
+
+## 3. Développement du Dashboard de Visualisation (4 points)
+*   **Mise en place de Dash** : Utiliser la librairie Python Dash.
+*   **Structure du Dashboard** :
+    *   Afficher les noms des membres de l'équipe.
+    *   Afficher le nom du dataset.
+    *   Décrire l'objectif du projet.
+    *   Intégrer les 4 visualisations créées précédemment.
+*   **Fonctionnalité** : S'assurer que le dashboard est interactif et fonctionnel.
+
+## 4. Organisation du Code et Documentation (Critères de pénalité)
+*   **Modularité** : Tout le code logique doit être encapsulé dans des fonctions `def function_name():`.
+*   **Commentaires** : Chaque fonction doit avoir des commentaires précisant son nom, ses entrées (inputs) et ses sorties (outputs).
+*   **Interprétation** : Chaque indicateur doit être accompagné d'une explication "humaine" dans une cellule Markdown (méthode, calcul, interprétation).
+*   **Point d'entrée** : Utiliser le bloc `if __name__ == "__main__":` pour orchestrer l'exécution du script et lancer le dashboard.
+
+## 5. Préparation des Livrables
+*   **Notebook HTML** : Exporter le notebook final au format HTML.
+*   **Slides (PDF)** : Préparer une présentation de 8 slides maximum résumant le projet, les techniques et les résultats pour la soutenance.
