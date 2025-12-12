@@ -9,7 +9,7 @@ Le projet met l'accent sur deux aspects :
 1.  **Capacités techniques** : Implémentation en Python, structuration du code en fonctions indépendantes et réutilisables, documentation rigoureuse, et utilisation de la librairie Dash pour la visualisation.
 2.  **Communication** : Présentation claire des résultats via le dashboard et une soutenance orale.
 
----
+------------------------------------------------------------------------------------------
 
 # Plan structuré du projet
 
